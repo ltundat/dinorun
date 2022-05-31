@@ -30,7 +30,7 @@ void UpdateHighScore(std::string path, const int& score, const std::string& old_
 	HighScoreFile << newHighScore;
 }
 
-void UpdateGameTimeAndScore( int& speed, int& score)
+void UpdateGameTimeAndScore( int& time, int& score)
 {
 	if (time % 5 == 0)
 	{
@@ -98,7 +98,6 @@ void GenerateEnemy(Enemy& enemy1,
 	SDL_Renderer * gRenderer)
 {
 	enemy1.LoadFromFile("imgs/enemy/obs.png", gRenderer);
-	enemy2.LoadFromFile("imgs/enemy/obs.png", gRenderer);
 	enemy3.LoadFromFile("imgs/enemy/bat.png", gRenderer);
 	{
 		gEnemyClips[0].x = 43 * 3;
