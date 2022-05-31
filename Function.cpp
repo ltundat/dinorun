@@ -30,7 +30,7 @@ void UpdateHighScore(std::string path, const int& score, const std::string& old_
 	HighScoreFile << newHighScore;
 }
 
-int UpdateGameTimeAndScore(int& time, int& speed, int& score)
+void UpdateGameTimeAndScore( int& speed, int& score)
 {
 	if (time % 5 == 0)
 	{
@@ -38,9 +38,6 @@ int UpdateGameTimeAndScore(int& time, int& speed, int& score)
 		time = 0;
 	}
 
-	time += TIME_INCREASEMENT;
-
-	return time;
 }
 
 void RenderScrollingBackground(std::vector <double>& offsetSpeed,
