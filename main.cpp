@@ -306,7 +306,7 @@ bool LoadMedia()
 				success = false;
 			}
 
-			if (!gMenuTexture.loadFromFile("imgs/background/City1.png", gRenderer))
+			if (!gMenuTexture.loadFromFile("imgs/mainmenu/City1.png", gRenderer))
 			{
 				std::cout << "Failed to load menu image" << std::endl;
 				success = false;

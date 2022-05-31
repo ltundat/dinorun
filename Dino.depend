@@ -1,48 +1,124 @@
 # depslib dependency file v1.0
-1653600764 source:c:\users\admin\desktop\dino\main.cpp
+1653692951 source:c:\users\admin\desktop\Dino\button.cpp
+	"Button.h"
+
+1653692373 c:\users\admin\desktop\Dino\button.h
+	"Game_Base.h"
+	"LTexture.h"
+
+1653692988 c:\users\admin\desktop\Dino\game_base.h
 	<SDL.h>
 	<SDL_image.h>
-	<stdio.h>
-	<string>
-
-1646994915 source:c:\users\admin\desktop\dino\meen.cpp
-	<SDL.h>
-	<stdio.h>
-
-1652978549 c:\users\admin\desktop\dino\background.h
+	<SDL_mixer.h>
+	<SDL_ttf.h>
 	<iostream>
+	<fstream>
+	<sstream>
 	<string>
 	<vector>
+	<ctime>
+
+1653682862 c:\users\admin\desktop\Dino\ltexture.h
+	"Game_Base.h"
+
+1653687181 source:c:\users\admin\desktop\Dino\character.cpp
+	"Character.h"
+
+1653692186 c:\users\admin\desktop\Dino\character.h
+	"LTexture.h"
+
+1653687473 source:c:\users\admin\desktop\Dino\enemy.cpp
+	"Enemy.h"
+
+1653670794 c:\users\admin\desktop\Dino\enemy.h
+	"LTexture.h"
+
+1653670671 source:c:\users\admin\desktop\Dino\game_base.cpp
+	"Game_Base.h"
+
+1653691953 source:c:\users\admin\desktop\Dino\game_utils.cpp
+	"Game_Utils.h"
+
+1653691610 c:\users\admin\desktop\Dino\game_utils.h
+	"Game_Base.h"
+	"Button.h"
+	"Obstacle.h"
+	"Character.h"
+
+1653682882 source:c:\users\admin\desktop\Dino\ltexture.cpp
+	"LTexture.h"
+
+1653998550 source:c:\users\admin\desktop\Dino\main.cpp
+	"Game_Base.h"
+	"Function.h"
+	"LTexture.h"
+	"Button.h"
+	"Character.h"
+	"Obstacle.h"
+
+1653688536 c:\users\admin\desktop\Dino\obstacle.h
+	"LTexture.h"
+
+1653692520 c:\users\admin\desktop\Dino\function.h
+	"Game_Base.h"
+	"Button.h"
+	"Obstacle.h"
+	"Character.h"
+
+1653691953 source:c:\users\admin\desktop\Dino\function.cpp
+	"Game_Utils.h"
+
+1653687473 source:c:\users\admin\desktop\Dino\obstacle.cpp
+	"Enemy.h"
+
+1653692951 source:c:\users\admin\documents\github\dinorun\button.cpp
+	"Button.h"
+
+1653692373 c:\users\admin\documents\github\dinorun\button.h
+	"Game_Base.h"
+	"LTexture.h"
+
+1653692988 c:\users\admin\documents\github\dinorun\game_base.h
 	<SDL.h>
 	<SDL_image.h>
-	"Texture.h"
-	"Constant.h"
-
-1652983513 c:\users\admin\desktop\dino\texture.h
+	<SDL_mixer.h>
+	<SDL_ttf.h>
 	<iostream>
+	<fstream>
+	<sstream>
 	<string>
 	<vector>
-	<SDL.h>
-	<SDL_image.h>
+	<ctime>
 
-1652979589 c:\users\admin\desktop\dino\constant.h
-	<string>
+1653682862 c:\users\admin\documents\github\dinorun\ltexture.h
+	"Game_Base.h"
 
-1652983328 c:\users\admin\desktop\dino\maincontrol.h
-	<iostream>
-	<string>
-	<vector>
-	<SDL.h>
-	<SDL_image.h>
-	"Background.h"
-	"constant.h"
+1653687181 source:c:\users\admin\documents\github\dinorun\character.cpp
+	"Character.h"
 
-1652983922 source:c:\users\admin\desktop\dino\background.cpp
-	"Background.h"
+1653692186 c:\users\admin\documents\github\dinorun\character.h
+	"LTexture.h"
 
-1652983490 source:c:\users\admin\desktop\dino\texture.cpp
-	"Texture.h"
+1653670671 source:c:\users\admin\documents\github\dinorun\game_base.cpp
+	"Game_Base.h"
 
-1652985011 source:c:\users\admin\desktop\dino\maincontrol.cpp
-	"MainControl.h"
+1653682882 source:c:\users\admin\documents\github\dinorun\ltexture.cpp
+	"LTexture.h"
+
+1653998550 source:c:\users\admin\documents\github\dinorun\main.cpp
+	"Game_Base.h"
+	"Function.h"
+	"LTexture.h"
+	"Button.h"
+	"Character.h"
+	"Obstacle.h"
+
+1653692520 c:\users\admin\documents\github\dinorun\function.h
+	"Game_Base.h"
+	"Button.h"
+	"Obstacle.h"
+	"Character.h"
+
+1653688536 c:\users\admin\documents\github\dinorun\obstacle.h
+	"LTexture.h"
 
